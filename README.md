@@ -9,4 +9,6 @@ The design for the PCB, shown in the 3 images below, can be downloaded from the 
 
 <img src="images\flexbot_PCB07_front01_400w.jpg" width="235" height="420"> &nbsp; &nbsp; <img src="images\flexbot_PCB07_back02_400w.jpg" width="234" height="420">  &nbsp; &nbsp; <img src="images\flexbot_PCB07_back01_400w.jpg" width="258" height="420">
 
-The software for this robot uses a mixture of Python and compiled 'C' code and some of the initial component testing code can be downloaded from the software folder - the main operational code is still being finalised and will be added here in due course.
+The software for this robot uses a mixture of Python and compiled 'C' code with the flexbot01_gpio.c code compiled to create a .so library that can be used by the Python code using the ctypes library.
+
+ Some of the initial component testing code can be downloaded from the software folder, but the main operational code is still being finalised and will be added here in due course.
