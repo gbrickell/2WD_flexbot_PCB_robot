@@ -3,7 +3,9 @@ Raspberry Pi Zero managed 2WD robot using the flexbot v7.0 PCB
 
 &nbsp; &nbsp; <img src="images\2WD_robot.jpg" width="360" height="333">
 
-An early (late 2019) compact/3-plate robot design using 3D printed components and the flexbot v7.0 PCB - much more project detail is available from [here](https://onlinedevices.org.uk/RPi_flexbot_PCB_2WD_robot) and the 3D printed component designs can be downloaded from [here](https://www.printables.com/model/1267019-raspberry-pi-2wd-flexbot-robot).
+An early (late 2019) compact/3-plate robot design using 3D printed components and the flexbot v7.0 PCB - much more project detail is available from [here](https://onlinedevices.org.uk/RPi_flexbot_PCB_2WD_robot) and the 3D printed component designs can be downloaded from [here](https://www.printables.com/model/1267019-raspberry-pi-2wd-flexbot-robot). 
+
+It should be noted that this early design is somewhat 'conservative' since some sensors at that time were only generally available with 5V output signals (i.e. they probably originated for use with Arduino microcontrollers) so the PCB also accommodates the use of a bi-directional logic level signal (LLS) converter module, a 2x 6-pin device that can convert 5V-to-3V3 signals (and vice versa). 
 
 The design for the PCB, shown in the 3 images below, can be downloaded from the PCB_design_files folder as gerber files.
 
